@@ -1,0 +1,18 @@
+{
+  "id": "vale",
+  "version": "1.0.0",
+  "name": "Vale",
+  "description": "Installs the Vale CLI. Requires a glibc-based Linux distribution; Alpine Linux is not supported as Vale does not provide a musl binary.",
+  "documentationURL": "https://github.com/iaingalloway/features/tree/main/src/vale",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["latest", "v3.14.1"],
+      "default": "latest",
+      "description": "Select or enter a Vale version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "ubuntu": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "vale": {}
+    }
+  },
+  "debian": {
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+      "vale": {}
+    }
+  },
+  "pinned": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "vale": {
+        "version": "3.14.1"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ubuntu": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "markdownlint-cli2": {},
+      "ghcr.io/devcontainers/features/node:2": {
+        "version": "20"
+      }
+    }
+  },
+  "debian": {
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+      "markdownlint-cli2": {},
+      "ghcr.io/devcontainers/features/node:2": {
+        "version": "20"
+      }
+    }
+  },
+  "pinned": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "markdownlint-cli2": {
+        "version": "0.22.1"
+      },
+      "ghcr.io/devcontainers/features/node:2": {
+        "version": "20"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "features-dev",
+  "dockerFile": "Dockerfile",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1.9.1": {
+      "moby": "false"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "DavidAnson.vscode-markdownlint",
+        "EditorConfig.EditorConfig"
+      ]
+    }
+  },
+  "runArgs": [
+    "--name",
+    "features-dev"
+  ]
+}

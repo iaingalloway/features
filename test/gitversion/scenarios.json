@@ -1,0 +1,22 @@
+{
+  "ubuntu": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "gitversion": {}
+    }
+  },
+  "debian": {
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+      "gitversion": {}
+    }
+  },
+  "pinned": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "gitversion": {
+        "version": "6.7.0"
+      }
+    }
+  }
+}

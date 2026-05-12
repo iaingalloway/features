@@ -1,0 +1,18 @@
+{
+  "id": "sval",
+  "version": "1.0.0",
+  "name": "sval",
+  "description": "Installs the sval CLI",
+  "documentationURL": "https://github.com/iaingalloway/features/tree/main/src/sval",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["latest", "v1.0.0"],
+      "default": "latest",
+      "description": "Select or enter a sval version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}

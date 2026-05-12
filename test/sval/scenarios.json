@@ -1,0 +1,22 @@
+{
+  "ubuntu": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "sval": {}
+    }
+  },
+  "debian": {
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+      "sval": {}
+    }
+  },
+  "pinned": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "sval": {
+        "version": "1.0.0"
+      }
+    }
+  }
+}

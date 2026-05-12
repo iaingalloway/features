@@ -1,0 +1,18 @@
+{
+  "id": "gitversion",
+  "version": "1.0.0",
+  "name": "GitVersion",
+  "description": "Installs the GitVersion CLI",
+  "documentationURL": "https://github.com/iaingalloway/features/tree/main/src/gitversion",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["latest", "6.7.0"],
+      "default": "latest",
+      "description": "Select or enter a GitVersion version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "markdownlint-cli2",
+  "version": "1.0.0",
+  "name": "markdownlint-cli2",
+  "description": "Installs the markdownlint-cli2 CLI via npm. Requires Node.js >= 20 and npm to be available (e.g. via the Node.js feature).",
+  "documentationURL": "https://github.com/iaingalloway/features/tree/main/src/markdownlint-cli2",
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/node"
+  ],
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["latest"],
+      "default": "latest",
+      "description": "Version of markdownlint-cli2 to install. Use 'latest' for the most recent release."
+    }
+  }
+}
