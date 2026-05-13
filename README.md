@@ -15,14 +15,14 @@ A collection of [devcontainer features](https://containers.dev/implementors/feat
 
 Add a feature to the `features` property in your `devcontainer.json`:
 
-```jsonc
+```json
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-    "ghcr.io/iaingalloway/features/vale": {},
-    "ghcr.io/iaingalloway/features/gitversion": {
-      "version": "6.7.0"
-    }
+    "ghcr.io/iaingalloway/features/gitversion:1.0.0": {},
+    "ghcr.io/iaingalloway/features/sval:1.0.0": {
+      "version": "1.0.0"
+    },
   }
 }
 ```
